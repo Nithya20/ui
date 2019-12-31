@@ -28,10 +28,6 @@ updateAge = function (name, age) {
 
 }
 getUsers = function () {
-    //
-}
-
-getUsers = function () {
     if (localStorage.getItem("users") != null) {
         users = JSON.parse(localStorage.getItem("users"));
         return users;
